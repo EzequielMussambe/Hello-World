@@ -1,0 +1,1171 @@
+{"name" : "ns1:timeSeriesResponseType",
+"declaredType" : "org.cuahsi.waterml.TimeSeriesResponseType",
+"scope" : "javax.xml.bind.JAXBElement$GlobalScope",
+"value" : {
+  "queryInfo" : {
+    "queryURL" : "http://waterservices.usgs.gov/nwis/dv/format=json&indent=on&countyCd=51059,51061&siteType=GW&siteStatus=all",
+    "criteria" : {
+      "locationParam" : "[]",
+      "variableParam" : "ALL",
+      "parameter" : [ ]
+    },
+    "note" : [ {
+      "value" : "[51059, 51061]",
+      "title" : "filter:countyCd"
+    }, {
+      "value" : "[GW]",
+      "title" : "filter:siteType"
+    }, {
+      "value" : "[mode=LATEST, modifiedSince=null]",
+      "title" : "filter:timeRange"
+    }, {
+      "value" : "methodIds=[ALL]",
+      "title" : "filter:methodId"
+    }, {
+      "value" : "2021-02-03T23:12:15.135Z",
+      "title" : "requestDT"
+    }, {
+      "value" : "40eb2090-6675-11eb-8ff4-2cea7f5e5ede",
+      "title" : "requestId"
+    }, {
+      "value" : "Provisional data are subject to revision. Go to http://waterdata.usgs.gov/nwis/help/?provisional for more information.",
+      "title" : "disclaimer"
+    }, {
+      "value" : "sdas01",
+      "title" : "server"
+    } ]
+  },
+  "timeSeries" : [ {
+    "sourceInfo" : {
+      "siteName" : "48S 38",
+      "siteCode" : [ {
+        "value" : "383455077463101",
+        "network" : "NWIS",
+        "agencyCode" : "USGS"
+      } ],
+      "timeZoneInfo" : {
+        "defaultTimeZone" : {
+          "zoneOffset" : "-05:00",
+          "zoneAbbreviation" : "EST"
+        },
+        "daylightSavingsTimeZone" : {
+          "zoneOffset" : "-04:00",
+          "zoneAbbreviation" : "EDT"
+        },
+        "siteUsesDaylightSavingsTime" : true
+      },
+      "geoLocation" : {
+        "geogLocation" : {
+          "srs" : "EPSG:4326",
+          "latitude" : 38.5819361,
+          "longitude" : -77.7753417
+        },
+        "localSiteXY" : [ ]
+      },
+      "note" : [ ],
+      "siteType" : [ ],
+      "siteProperty" : [ {
+        "value" : "GW",
+        "name" : "siteTypeCd"
+      }, {
+        "value" : "02080103",
+        "name" : "hucCd"
+      }, {
+        "value" : "51",
+        "name" : "stateCd"
+      }, {
+        "value" : "51061",
+        "name" : "countyCd"
+      } ]
+    },
+    "variable" : {
+      "variableCode" : [ {
+        "value" : "72019",
+        "network" : "NWIS",
+        "vocabulary" : "NWIS:UnitValues",
+        "variableID" : 52331280,
+        "default" : true
+      } ],
+      "variableName" : "Depth to water level, ft below land surface",
+      "variableDescription" : "Depth to water level, feet below land surface",
+      "valueType" : "Derived Value",
+      "unit" : {
+        "unitCode" : "ft"
+      },
+      "options" : {
+        "option" : [ {
+          "value" : "Maximum",
+          "name" : "Statistic",
+          "optionCode" : "00001"
+        } ]
+      },
+      "note" : [ ],
+      "noDataValue" : -999999.0,
+      "variableProperty" : [ ],
+      "oid" : "52331280"
+    },
+    "values" : [ {
+      "value" : [ {
+        "value" : "8.92",
+        "qualifiers" : [ "P" ],
+        "dateTime" : "2021-02-02T00:00:00.000"
+      } ],
+      "qualifier" : [ {
+        "qualifierCode" : "P",
+        "qualifierDescription" : "Provisional data subject to revision.",
+        "qualifierID" : 0,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      } ],
+      "qualityControlLevel" : [ ],
+      "method" : [ {
+        "methodDescription" : "",
+        "methodID" : 168727
+      } ],
+      "source" : [ ],
+      "offset" : [ ],
+      "sample" : [ ],
+      "censorCode" : [ ]
+    } ],
+    "name" : "USGS:383455077463101:72019:00001"
+  }, {
+    "sourceInfo" : {
+      "siteName" : "48S 38",
+      "siteCode" : [ {
+        "value" : "383455077463101",
+        "network" : "NWIS",
+        "agencyCode" : "USGS"
+      } ],
+      "timeZoneInfo" : {
+        "defaultTimeZone" : {
+          "zoneOffset" : "-05:00",
+          "zoneAbbreviation" : "EST"
+        },
+        "daylightSavingsTimeZone" : {
+          "zoneOffset" : "-04:00",
+          "zoneAbbreviation" : "EDT"
+        },
+        "siteUsesDaylightSavingsTime" : true
+      },
+      "geoLocation" : {
+        "geogLocation" : {
+          "srs" : "EPSG:4326",
+          "latitude" : 38.5819361,
+          "longitude" : -77.7753417
+        },
+        "localSiteXY" : [ ]
+      },
+      "note" : [ ],
+      "siteType" : [ ],
+      "siteProperty" : [ {
+        "value" : "GW",
+        "name" : "siteTypeCd"
+      }, {
+        "value" : "02080103",
+        "name" : "hucCd"
+      }, {
+        "value" : "51",
+        "name" : "stateCd"
+      }, {
+        "value" : "51061",
+        "name" : "countyCd"
+      } ]
+    },
+    "variable" : {
+      "variableCode" : [ {
+        "value" : "72019",
+        "network" : "NWIS",
+        "vocabulary" : "NWIS:UnitValues",
+        "variableID" : 52331280,
+        "default" : true
+      } ],
+      "variableName" : "Depth to water level, ft below land surface",
+      "variableDescription" : "Depth to water level, feet below land surface",
+      "valueType" : "Derived Value",
+      "unit" : {
+        "unitCode" : "ft"
+      },
+      "options" : {
+        "option" : [ {
+          "value" : "Minimum",
+          "name" : "Statistic",
+          "optionCode" : "00002"
+        } ]
+      },
+      "note" : [ ],
+      "noDataValue" : -999999.0,
+      "variableProperty" : [ ],
+      "oid" : "52331280"
+    },
+    "values" : [ {
+      "value" : [ {
+        "value" : "7.98",
+        "qualifiers" : [ "P" ],
+        "dateTime" : "2021-02-02T00:00:00.000"
+      } ],
+      "qualifier" : [ {
+        "qualifierCode" : "P",
+        "qualifierDescription" : "Provisional data subject to revision.",
+        "qualifierID" : 0,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      } ],
+      "qualityControlLevel" : [ ],
+      "method" : [ {
+        "methodDescription" : "",
+        "methodID" : 168728
+      } ],
+      "source" : [ ],
+      "offset" : [ ],
+      "sample" : [ ],
+      "censorCode" : [ ]
+    } ],
+    "name" : "USGS:383455077463101:72019:00002"
+  }, {
+    "sourceInfo" : {
+      "siteName" : "48T  7",
+      "siteCode" : [ {
+        "value" : "384122077462601",
+        "network" : "NWIS",
+        "agencyCode" : "USGS"
+      } ],
+      "timeZoneInfo" : {
+        "defaultTimeZone" : {
+          "zoneOffset" : "-05:00",
+          "zoneAbbreviation" : "EST"
+        },
+        "daylightSavingsTimeZone" : {
+          "zoneOffset" : "-04:00",
+          "zoneAbbreviation" : "EDT"
+        },
+        "siteUsesDaylightSavingsTime" : true
+      },
+      "geoLocation" : {
+        "geogLocation" : {
+          "srs" : "EPSG:4326",
+          "latitude" : 38.68953056,
+          "longitude" : -77.7739722
+        },
+        "localSiteXY" : [ ]
+      },
+      "note" : [ ],
+      "siteType" : [ ],
+      "siteProperty" : [ {
+        "value" : "GW",
+        "name" : "siteTypeCd"
+      }, {
+        "value" : "02070010",
+        "name" : "hucCd"
+      }, {
+        "value" : "51",
+        "name" : "stateCd"
+      }, {
+        "value" : "51061",
+        "name" : "countyCd"
+      } ]
+    },
+    "variable" : {
+      "variableCode" : [ {
+        "value" : "72019",
+        "network" : "NWIS",
+        "vocabulary" : "NWIS:UnitValues",
+        "variableID" : 52331280,
+        "default" : true
+      } ],
+      "variableName" : "Depth to water level, ft below land surface",
+      "variableDescription" : "Depth to water level, feet below land surface",
+      "valueType" : "Derived Value",
+      "unit" : {
+        "unitCode" : "ft"
+      },
+      "options" : {
+        "option" : [ {
+          "value" : "Maximum",
+          "name" : "Statistic",
+          "optionCode" : "00001"
+        } ]
+      },
+      "note" : [ ],
+      "noDataValue" : -999999.0,
+      "variableProperty" : [ ],
+      "oid" : "52331280"
+    },
+    "values" : [ {
+      "value" : [ {
+        "value" : "1.60",
+        "qualifiers" : [ "P" ],
+        "dateTime" : "2021-02-02T00:00:00.000"
+      } ],
+      "qualifier" : [ {
+        "qualifierCode" : "P",
+        "qualifierDescription" : "Provisional data subject to revision.",
+        "qualifierID" : 0,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      } ],
+      "qualityControlLevel" : [ ],
+      "method" : [ {
+        "methodDescription" : "",
+        "methodID" : 168725
+      } ],
+      "source" : [ ],
+      "offset" : [ ],
+      "sample" : [ ],
+      "censorCode" : [ ]
+    } ],
+    "name" : "USGS:384122077462601:72019:00001"
+  }, {
+    "sourceInfo" : {
+      "siteName" : "48T  7",
+      "siteCode" : [ {
+        "value" : "384122077462601",
+        "network" : "NWIS",
+        "agencyCode" : "USGS"
+      } ],
+      "timeZoneInfo" : {
+        "defaultTimeZone" : {
+          "zoneOffset" : "-05:00",
+          "zoneAbbreviation" : "EST"
+        },
+        "daylightSavingsTimeZone" : {
+          "zoneOffset" : "-04:00",
+          "zoneAbbreviation" : "EDT"
+        },
+        "siteUsesDaylightSavingsTime" : true
+      },
+      "geoLocation" : {
+        "geogLocation" : {
+          "srs" : "EPSG:4326",
+          "latitude" : 38.68953056,
+          "longitude" : -77.7739722
+        },
+        "localSiteXY" : [ ]
+      },
+      "note" : [ ],
+      "siteType" : [ ],
+      "siteProperty" : [ {
+        "value" : "GW",
+        "name" : "siteTypeCd"
+      }, {
+        "value" : "02070010",
+        "name" : "hucCd"
+      }, {
+        "value" : "51",
+        "name" : "stateCd"
+      }, {
+        "value" : "51061",
+        "name" : "countyCd"
+      } ]
+    },
+    "variable" : {
+      "variableCode" : [ {
+        "value" : "72019",
+        "network" : "NWIS",
+        "vocabulary" : "NWIS:UnitValues",
+        "variableID" : 52331280,
+        "default" : true
+      } ],
+      "variableName" : "Depth to water level, ft below land surface",
+      "variableDescription" : "Depth to water level, feet below land surface",
+      "valueType" : "Derived Value",
+      "unit" : {
+        "unitCode" : "ft"
+      },
+      "options" : {
+        "option" : [ {
+          "value" : "Minimum",
+          "name" : "Statistic",
+          "optionCode" : "00002"
+        } ]
+      },
+      "note" : [ ],
+      "noDataValue" : -999999.0,
+      "variableProperty" : [ ],
+      "oid" : "52331280"
+    },
+    "values" : [ {
+      "value" : [ {
+        "value" : "1.53",
+        "qualifiers" : [ "P" ],
+        "dateTime" : "2021-02-02T00:00:00.000"
+      } ],
+      "qualifier" : [ {
+        "qualifierCode" : "P",
+        "qualifierDescription" : "Provisional data subject to revision.",
+        "qualifierID" : 0,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      } ],
+      "qualityControlLevel" : [ ],
+      "method" : [ {
+        "methodDescription" : "",
+        "methodID" : 168726
+      } ],
+      "source" : [ ],
+      "offset" : [ ],
+      "sample" : [ ],
+      "censorCode" : [ ]
+    } ],
+    "name" : "USGS:384122077462601:72019:00002"
+  }, {
+    "sourceInfo" : {
+      "siteName" : "49U 81",
+      "siteCode" : [ {
+        "value" : "384348077405401",
+        "network" : "NWIS",
+        "agencyCode" : "USGS"
+      } ],
+      "timeZoneInfo" : {
+        "defaultTimeZone" : {
+          "zoneOffset" : "-05:00",
+          "zoneAbbreviation" : "EST"
+        },
+        "daylightSavingsTimeZone" : {
+          "zoneOffset" : "-04:00",
+          "zoneAbbreviation" : "EDT"
+        },
+        "siteUsesDaylightSavingsTime" : true
+      },
+      "geoLocation" : {
+        "geogLocation" : {
+          "srs" : "EPSG:4326",
+          "latitude" : 38.7298722,
+          "longitude" : -77.6817306
+        },
+        "localSiteXY" : [ ]
+      },
+      "note" : [ ],
+      "siteType" : [ ],
+      "siteProperty" : [ {
+        "value" : "GW",
+        "name" : "siteTypeCd"
+      }, {
+        "value" : "02070010",
+        "name" : "hucCd"
+      }, {
+        "value" : "51",
+        "name" : "stateCd"
+      }, {
+        "value" : "51061",
+        "name" : "countyCd"
+      } ]
+    },
+    "variable" : {
+      "variableCode" : [ {
+        "value" : "72019",
+        "network" : "NWIS",
+        "vocabulary" : "NWIS:UnitValues",
+        "variableID" : 52331280,
+        "default" : true
+      } ],
+      "variableName" : "Depth to water level, ft below land surface",
+      "variableDescription" : "Depth to water level, feet below land surface",
+      "valueType" : "Derived Value",
+      "unit" : {
+        "unitCode" : "ft"
+      },
+      "options" : {
+        "option" : [ {
+          "value" : "Maximum",
+          "name" : "Statistic",
+          "optionCode" : "00001"
+        } ]
+      },
+      "note" : [ ],
+      "noDataValue" : -999999.0,
+      "variableProperty" : [ ],
+      "oid" : "52331280"
+    },
+    "values" : [ {
+      "value" : [ {
+        "value" : "2.10",
+        "qualifiers" : [ "P" ],
+        "dateTime" : "2020-04-24T00:00:00.000"
+      } ],
+      "qualifier" : [ {
+        "qualifierCode" : "P",
+        "qualifierDescription" : "Provisional data subject to revision.",
+        "qualifierID" : 0,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      } ],
+      "qualityControlLevel" : [ ],
+      "method" : [ {
+        "methodDescription" : "",
+        "methodID" : 168723
+      } ],
+      "source" : [ ],
+      "offset" : [ ],
+      "sample" : [ ],
+      "censorCode" : [ ]
+    } ],
+    "name" : "USGS:384348077405401:72019:00001"
+  }, {
+    "sourceInfo" : {
+      "siteName" : "49U 81",
+      "siteCode" : [ {
+        "value" : "384348077405401",
+        "network" : "NWIS",
+        "agencyCode" : "USGS"
+      } ],
+      "timeZoneInfo" : {
+        "defaultTimeZone" : {
+          "zoneOffset" : "-05:00",
+          "zoneAbbreviation" : "EST"
+        },
+        "daylightSavingsTimeZone" : {
+          "zoneOffset" : "-04:00",
+          "zoneAbbreviation" : "EDT"
+        },
+        "siteUsesDaylightSavingsTime" : true
+      },
+      "geoLocation" : {
+        "geogLocation" : {
+          "srs" : "EPSG:4326",
+          "latitude" : 38.7298722,
+          "longitude" : -77.6817306
+        },
+        "localSiteXY" : [ ]
+      },
+      "note" : [ ],
+      "siteType" : [ ],
+      "siteProperty" : [ {
+        "value" : "GW",
+        "name" : "siteTypeCd"
+      }, {
+        "value" : "02070010",
+        "name" : "hucCd"
+      }, {
+        "value" : "51",
+        "name" : "stateCd"
+      }, {
+        "value" : "51061",
+        "name" : "countyCd"
+      } ]
+    },
+    "variable" : {
+      "variableCode" : [ {
+        "value" : "72019",
+        "network" : "NWIS",
+        "vocabulary" : "NWIS:UnitValues",
+        "variableID" : 52331280,
+        "default" : true
+      } ],
+      "variableName" : "Depth to water level, ft below land surface",
+      "variableDescription" : "Depth to water level, feet below land surface",
+      "valueType" : "Derived Value",
+      "unit" : {
+        "unitCode" : "ft"
+      },
+      "options" : {
+        "option" : [ {
+          "value" : "Minimum",
+          "name" : "Statistic",
+          "optionCode" : "00002"
+        } ]
+      },
+      "note" : [ ],
+      "noDataValue" : -999999.0,
+      "variableProperty" : [ ],
+      "oid" : "52331280"
+    },
+    "values" : [ {
+      "value" : [ {
+        "value" : "1.74",
+        "qualifiers" : [ "P" ],
+        "dateTime" : "2020-04-24T00:00:00.000"
+      } ],
+      "qualifier" : [ {
+        "qualifierCode" : "P",
+        "qualifierDescription" : "Provisional data subject to revision.",
+        "qualifierID" : 0,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      } ],
+      "qualityControlLevel" : [ ],
+      "method" : [ {
+        "methodDescription" : "",
+        "methodID" : 168724
+      } ],
+      "source" : [ ],
+      "offset" : [ ],
+      "sample" : [ ],
+      "censorCode" : [ ]
+    } ],
+    "name" : "USGS:384348077405401:72019:00002"
+  }, {
+    "sourceInfo" : {
+      "siteName" : "48U 26 SOW 215",
+      "siteCode" : [ {
+        "value" : "384957077481701",
+        "network" : "NWIS",
+        "agencyCode" : "USGS"
+      } ],
+      "timeZoneInfo" : {
+        "defaultTimeZone" : {
+          "zoneOffset" : "-05:00",
+          "zoneAbbreviation" : "EST"
+        },
+        "daylightSavingsTimeZone" : {
+          "zoneOffset" : "-04:00",
+          "zoneAbbreviation" : "EDT"
+        },
+        "siteUsesDaylightSavingsTime" : true
+      },
+      "geoLocation" : {
+        "geogLocation" : {
+          "srs" : "EPSG:4326",
+          "latitude" : 38.8326333,
+          "longitude" : -77.8048111
+        },
+        "localSiteXY" : [ ]
+      },
+      "note" : [ ],
+      "siteType" : [ ],
+      "siteProperty" : [ {
+        "value" : "GW",
+        "name" : "siteTypeCd"
+      }, {
+        "value" : "02070010",
+        "name" : "hucCd"
+      }, {
+        "value" : "51",
+        "name" : "stateCd"
+      }, {
+        "value" : "51061",
+        "name" : "countyCd"
+      } ]
+    },
+    "variable" : {
+      "variableCode" : [ {
+        "value" : "72019",
+        "network" : "NWIS",
+        "vocabulary" : "NWIS:UnitValues",
+        "variableID" : 52331280,
+        "default" : true
+      } ],
+      "variableName" : "Depth to water level, ft below land surface",
+      "variableDescription" : "Depth to water level, feet below land surface",
+      "valueType" : "Derived Value",
+      "unit" : {
+        "unitCode" : "ft"
+      },
+      "options" : {
+        "option" : [ {
+          "value" : "Maximum",
+          "name" : "Statistic",
+          "optionCode" : "00001"
+        } ]
+      },
+      "note" : [ ],
+      "noDataValue" : -999999.0,
+      "variableProperty" : [ ],
+      "oid" : "52331280"
+    },
+    "values" : [ {
+      "value" : [ {
+        "value" : "21.89",
+        "qualifiers" : [ "P" ],
+        "dateTime" : "2021-02-02T00:00:00.000"
+      } ],
+      "qualifier" : [ {
+        "qualifierCode" : "P",
+        "qualifierDescription" : "Provisional data subject to revision.",
+        "qualifierID" : 0,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      } ],
+      "qualityControlLevel" : [ ],
+      "method" : [ {
+        "methodDescription" : "",
+        "methodID" : 146350
+      } ],
+      "source" : [ ],
+      "offset" : [ ],
+      "sample" : [ ],
+      "censorCode" : [ ]
+    } ],
+    "name" : "USGS:384957077481701:72019:00001"
+  }, {
+    "sourceInfo" : {
+      "siteName" : "48U 26 SOW 215",
+      "siteCode" : [ {
+        "value" : "384957077481701",
+        "network" : "NWIS",
+        "agencyCode" : "USGS"
+      } ],
+      "timeZoneInfo" : {
+        "defaultTimeZone" : {
+          "zoneOffset" : "-05:00",
+          "zoneAbbreviation" : "EST"
+        },
+        "daylightSavingsTimeZone" : {
+          "zoneOffset" : "-04:00",
+          "zoneAbbreviation" : "EDT"
+        },
+        "siteUsesDaylightSavingsTime" : true
+      },
+      "geoLocation" : {
+        "geogLocation" : {
+          "srs" : "EPSG:4326",
+          "latitude" : 38.8326333,
+          "longitude" : -77.8048111
+        },
+        "localSiteXY" : [ ]
+      },
+      "note" : [ ],
+      "siteType" : [ ],
+      "siteProperty" : [ {
+        "value" : "GW",
+        "name" : "siteTypeCd"
+      }, {
+        "value" : "02070010",
+        "name" : "hucCd"
+      }, {
+        "value" : "51",
+        "name" : "stateCd"
+      }, {
+        "value" : "51061",
+        "name" : "countyCd"
+      } ]
+    },
+    "variable" : {
+      "variableCode" : [ {
+        "value" : "72019",
+        "network" : "NWIS",
+        "vocabulary" : "NWIS:UnitValues",
+        "variableID" : 52331280,
+        "default" : true
+      } ],
+      "variableName" : "Depth to water level, ft below land surface",
+      "variableDescription" : "Depth to water level, feet below land surface",
+      "valueType" : "Derived Value",
+      "unit" : {
+        "unitCode" : "ft"
+      },
+      "options" : {
+        "option" : [ {
+          "value" : "Minimum",
+          "name" : "Statistic",
+          "optionCode" : "00002"
+        } ]
+      },
+      "note" : [ ],
+      "noDataValue" : -999999.0,
+      "variableProperty" : [ ],
+      "oid" : "52331280"
+    },
+    "values" : [ {
+      "value" : [ {
+        "value" : "21.76",
+        "qualifiers" : [ "P" ],
+        "dateTime" : "2021-02-02T00:00:00.000"
+      } ],
+      "qualifier" : [ {
+        "qualifierCode" : "P",
+        "qualifierDescription" : "Provisional data subject to revision.",
+        "qualifierID" : 0,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      } ],
+      "qualityControlLevel" : [ ],
+      "method" : [ {
+        "methodDescription" : "",
+        "methodID" : 146351
+      } ],
+      "source" : [ ],
+      "offset" : [ ],
+      "sample" : [ ],
+      "censorCode" : [ ]
+    } ],
+    "name" : "USGS:384957077481701:72019:00002"
+  }, {
+    "sourceInfo" : {
+      "siteName" : "48U 32",
+      "siteCode" : [ {
+        "value" : "385207077493301",
+        "network" : "NWIS",
+        "agencyCode" : "USGS"
+      } ],
+      "timeZoneInfo" : {
+        "defaultTimeZone" : {
+          "zoneOffset" : "-05:00",
+          "zoneAbbreviation" : "EST"
+        },
+        "daylightSavingsTimeZone" : {
+          "zoneOffset" : "-04:00",
+          "zoneAbbreviation" : "EDT"
+        },
+        "siteUsesDaylightSavingsTime" : true
+      },
+      "geoLocation" : {
+        "geogLocation" : {
+          "srs" : "EPSG:4326",
+          "latitude" : 38.86847778,
+          "longitude" : -77.8257056
+        },
+        "localSiteXY" : [ ]
+      },
+      "note" : [ ],
+      "siteType" : [ ],
+      "siteProperty" : [ {
+        "value" : "GW",
+        "name" : "siteTypeCd"
+      }, {
+        "value" : "02070010",
+        "name" : "hucCd"
+      }, {
+        "value" : "51",
+        "name" : "stateCd"
+      }, {
+        "value" : "51061",
+        "name" : "countyCd"
+      } ]
+    },
+    "variable" : {
+      "variableCode" : [ {
+        "value" : "72019",
+        "network" : "NWIS",
+        "vocabulary" : "NWIS:UnitValues",
+        "variableID" : 52331280,
+        "default" : true
+      } ],
+      "variableName" : "Depth to water level, ft below land surface",
+      "variableDescription" : "Depth to water level, feet below land surface",
+      "valueType" : "Derived Value",
+      "unit" : {
+        "unitCode" : "ft"
+      },
+      "options" : {
+        "option" : [ {
+          "value" : "Maximum",
+          "name" : "Statistic",
+          "optionCode" : "00001"
+        } ]
+      },
+      "note" : [ ],
+      "noDataValue" : -999999.0,
+      "variableProperty" : [ ],
+      "oid" : "52331280"
+    },
+    "values" : [ {
+      "value" : [ {
+        "value" : "6.07",
+        "qualifiers" : [ "P" ],
+        "dateTime" : "2021-02-02T00:00:00.000"
+      } ],
+      "qualifier" : [ {
+        "qualifierCode" : "P",
+        "qualifierDescription" : "Provisional data subject to revision.",
+        "qualifierID" : 0,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      } ],
+      "qualityControlLevel" : [ ],
+      "method" : [ {
+        "methodDescription" : "",
+        "methodID" : 168809
+      } ],
+      "source" : [ ],
+      "offset" : [ ],
+      "sample" : [ ],
+      "censorCode" : [ ]
+    } ],
+    "name" : "USGS:385207077493301:72019:00001"
+  }, {
+    "sourceInfo" : {
+      "siteName" : "48U 32",
+      "siteCode" : [ {
+        "value" : "385207077493301",
+        "network" : "NWIS",
+        "agencyCode" : "USGS"
+      } ],
+      "timeZoneInfo" : {
+        "defaultTimeZone" : {
+          "zoneOffset" : "-05:00",
+          "zoneAbbreviation" : "EST"
+        },
+        "daylightSavingsTimeZone" : {
+          "zoneOffset" : "-04:00",
+          "zoneAbbreviation" : "EDT"
+        },
+        "siteUsesDaylightSavingsTime" : true
+      },
+      "geoLocation" : {
+        "geogLocation" : {
+          "srs" : "EPSG:4326",
+          "latitude" : 38.86847778,
+          "longitude" : -77.8257056
+        },
+        "localSiteXY" : [ ]
+      },
+      "note" : [ ],
+      "siteType" : [ ],
+      "siteProperty" : [ {
+        "value" : "GW",
+        "name" : "siteTypeCd"
+      }, {
+        "value" : "02070010",
+        "name" : "hucCd"
+      }, {
+        "value" : "51",
+        "name" : "stateCd"
+      }, {
+        "value" : "51061",
+        "name" : "countyCd"
+      } ]
+    },
+    "variable" : {
+      "variableCode" : [ {
+        "value" : "72019",
+        "network" : "NWIS",
+        "vocabulary" : "NWIS:UnitValues",
+        "variableID" : 52331280,
+        "default" : true
+      } ],
+      "variableName" : "Depth to water level, ft below land surface",
+      "variableDescription" : "Depth to water level, feet below land surface",
+      "valueType" : "Derived Value",
+      "unit" : {
+        "unitCode" : "ft"
+      },
+      "options" : {
+        "option" : [ {
+          "value" : "Minimum",
+          "name" : "Statistic",
+          "optionCode" : "00002"
+        } ]
+      },
+      "note" : [ ],
+      "noDataValue" : -999999.0,
+      "variableProperty" : [ ],
+      "oid" : "52331280"
+    },
+    "values" : [ {
+      "value" : [ {
+        "value" : "6.00",
+        "qualifiers" : [ "P" ],
+        "dateTime" : "2021-02-02T00:00:00.000"
+      } ],
+      "qualifier" : [ {
+        "qualifierCode" : "P",
+        "qualifierDescription" : "Provisional data subject to revision.",
+        "qualifierID" : 0,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      } ],
+      "qualityControlLevel" : [ ],
+      "method" : [ {
+        "methodDescription" : "",
+        "methodID" : 168810
+      } ],
+      "source" : [ ],
+      "offset" : [ ],
+      "sample" : [ ],
+      "censorCode" : [ ]
+    } ],
+    "name" : "USGS:385207077493301:72019:00002"
+  }, {
+    "sourceInfo" : {
+      "siteName" : "52V  2D",
+      "siteCode" : [ {
+        "value" : "385638077220101",
+        "network" : "NWIS",
+        "agencyCode" : "USGS"
+      } ],
+      "timeZoneInfo" : {
+        "defaultTimeZone" : {
+          "zoneOffset" : "-05:00",
+          "zoneAbbreviation" : "EST"
+        },
+        "daylightSavingsTimeZone" : {
+          "zoneOffset" : "-04:00",
+          "zoneAbbreviation" : "EDT"
+        },
+        "siteUsesDaylightSavingsTime" : true
+      },
+      "geoLocation" : {
+        "geogLocation" : {
+          "srs" : "EPSG:4326",
+          "latitude" : 38.949555,
+          "longitude" : -77.3666524
+        },
+        "localSiteXY" : [ ]
+      },
+      "note" : [ ],
+      "siteType" : [ ],
+      "siteProperty" : [ {
+        "value" : "GW",
+        "name" : "siteTypeCd"
+      }, {
+        "value" : "02070008",
+        "name" : "hucCd"
+      }, {
+        "value" : "51",
+        "name" : "stateCd"
+      }, {
+        "value" : "51059",
+        "name" : "countyCd"
+      } ]
+    },
+    "variable" : {
+      "variableCode" : [ {
+        "value" : "72019",
+        "network" : "NWIS",
+        "vocabulary" : "NWIS:UnitValues",
+        "variableID" : 52331280,
+        "default" : true
+      } ],
+      "variableName" : "Depth to water level, ft below land surface",
+      "variableDescription" : "Depth to water level, feet below land surface",
+      "valueType" : "Derived Value",
+      "unit" : {
+        "unitCode" : "ft"
+      },
+      "options" : {
+        "option" : [ {
+          "value" : "Maximum",
+          "name" : "Statistic",
+          "optionCode" : "00001"
+        } ]
+      },
+      "note" : [ ],
+      "noDataValue" : -999999.0,
+      "variableProperty" : [ ],
+      "oid" : "52331280"
+    },
+    "values" : [ {
+      "value" : [ {
+        "value" : "12.19",
+        "qualifiers" : [ "P", "[4]" ],
+        "dateTime" : "2021-02-03T00:00:00.000"
+      } ],
+      "qualifier" : [ {
+        "qualifierCode" : "[4]",
+        "qualifierDescription" : "Returned when there is no matching qualifier.",
+        "qualifierID" : 0,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      }, {
+        "qualifierCode" : "P",
+        "qualifierDescription" : "Provisional data subject to revision.",
+        "qualifierID" : 1,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      } ],
+      "qualityControlLevel" : [ ],
+      "method" : [ {
+        "methodDescription" : "",
+        "methodID" : 146356
+      } ],
+      "source" : [ ],
+      "offset" : [ ],
+      "sample" : [ ],
+      "censorCode" : [ ]
+    } ],
+    "name" : "USGS:385638077220101:72019:00001"
+  }, {
+    "sourceInfo" : {
+      "siteName" : "52V  2D",
+      "siteCode" : [ {
+        "value" : "385638077220101",
+        "network" : "NWIS",
+        "agencyCode" : "USGS"
+      } ],
+      "timeZoneInfo" : {
+        "defaultTimeZone" : {
+          "zoneOffset" : "-05:00",
+          "zoneAbbreviation" : "EST"
+        },
+        "daylightSavingsTimeZone" : {
+          "zoneOffset" : "-04:00",
+          "zoneAbbreviation" : "EDT"
+        },
+        "siteUsesDaylightSavingsTime" : true
+      },
+      "geoLocation" : {
+        "geogLocation" : {
+          "srs" : "EPSG:4326",
+          "latitude" : 38.949555,
+          "longitude" : -77.3666524
+        },
+        "localSiteXY" : [ ]
+      },
+      "note" : [ ],
+      "siteType" : [ ],
+      "siteProperty" : [ {
+        "value" : "GW",
+        "name" : "siteTypeCd"
+      }, {
+        "value" : "02070008",
+        "name" : "hucCd"
+      }, {
+        "value" : "51",
+        "name" : "stateCd"
+      }, {
+        "value" : "51059",
+        "name" : "countyCd"
+      } ]
+    },
+    "variable" : {
+      "variableCode" : [ {
+        "value" : "72019",
+        "network" : "NWIS",
+        "vocabulary" : "NWIS:UnitValues",
+        "variableID" : 52331280,
+        "default" : true
+      } ],
+      "variableName" : "Depth to water level, ft below land surface",
+      "variableDescription" : "Depth to water level, feet below land surface",
+      "valueType" : "Derived Value",
+      "unit" : {
+        "unitCode" : "ft"
+      },
+      "options" : {
+        "option" : [ {
+          "value" : "Minimum",
+          "name" : "Statistic",
+          "optionCode" : "00002"
+        } ]
+      },
+      "note" : [ ],
+      "noDataValue" : -999999.0,
+      "variableProperty" : [ ],
+      "oid" : "52331280"
+    },
+    "values" : [ {
+      "value" : [ {
+        "value" : "12.16",
+        "qualifiers" : [ "P", "[4]" ],
+        "dateTime" : "2021-02-03T00:00:00.000"
+      } ],
+      "qualifier" : [ {
+        "qualifierCode" : "[4]",
+        "qualifierDescription" : "Returned when there is no matching qualifier.",
+        "qualifierID" : 0,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      }, {
+        "qualifierCode" : "P",
+        "qualifierDescription" : "Provisional data subject to revision.",
+        "qualifierID" : 1,
+        "network" : "NWIS",
+        "vocabulary" : "uv_rmk_cd"
+      } ],
+      "qualityControlLevel" : [ ],
+      "method" : [ {
+        "methodDescription" : "",
+        "methodID" : 146357
+      } ],
+      "source" : [ ],
+      "offset" : [ ],
+      "sample" : [ ],
+      "censorCode" : [ ]
+    } ],
+    "name" : "USGS:385638077220101:72019:00002"
+  } ]
+},
+"nil" : false,
+"globalScope" : true,
+"typeSubstituted" : false
+}
